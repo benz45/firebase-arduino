@@ -35,3 +35,11 @@ If you maintain a fork of this repository that you believe is healthier than the
 ## Disclaimer
 
 *This is not an official Google product*.
+
+## Issues
+
+#### - FirebaseExtended / firebase-arduino not working
+- "FirebaseHttpClient.h" had a problem. (C:\Users\XXXXX\Documents\Arduino\libraries\firebase-arduino-master\src ) Just change the fingerprint in "static const char kFirebaseFingerprint[]" to another one [without : ] . You can find one for yours here"https://www.grc.com/fingerprints.htm". Just scroll down and put your firebase host (ie. https://xxxxxxx.firebaseio.com/) here.
+
+#### - Driver USB
+- Driver download here https://bit.ly/39GwLfT
